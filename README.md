@@ -8,6 +8,16 @@
 | Node.js | 22.20.0 |
 | pnpm    | 10.18.3 |
 
+## How to Add a New Pacakge
+
+You can use the following helper script to add a new pacakge.  
+
+```shell
+pnpm new {package name}
+```
+
+ex. `pnpm new react-vite`
+
 ## Package Names
 
 ### `@javascript-playground/{core}-{purpose}`
