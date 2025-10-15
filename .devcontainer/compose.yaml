@@ -1,0 +1,8 @@
+name: javascript-playground
+
+services:
+  workspace:
+    build: .
+    volumes:
+      - ..:/workspace
+    tty: true
