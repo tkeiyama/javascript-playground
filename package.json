@@ -1,5 +1,8 @@
 {
   "name": "@javascript-playground/root",
+  "scripts": {
+    "new": "sh ./scripts/new.sh"
+  },
   "devDependencies": {
     "typescript": "5.9.3"
   }
