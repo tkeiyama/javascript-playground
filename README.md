@@ -8,6 +8,14 @@
 | Node.js | 22.20.0 |
 | pnpm    | 10.18.3 |
 
+## Development
+
+1. Install packages
+
+```
+pnpm install
+```
+
 ## How to Add a New Pacakge
 
 You can use the following helper script to add a new pacakge.  
