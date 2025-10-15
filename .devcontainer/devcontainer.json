@@ -1,5 +1,12 @@
 {
   "dockerComposeFile": "compose.yaml",
   "service": "workspace",
-  "workspaceFolder": "/workspace"
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code"
+      ]
+    }
+  }
 }
