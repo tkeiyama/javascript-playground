@@ -1,3 +1,6 @@
 {
-  "name": "@javascript-playground/root"
+  "name": "@javascript-playground/root",
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
 }
