@@ -2,6 +2,7 @@
   "name": "@javascript-playground/root",
   "scripts": {
     "new": "sh ./scripts/new.sh",
+    "fix": "pnpm lint && pnpm format",
     "lint": "oxlint -c ./.oxlintrc.json --deny-warnings --fix",
     "format": "dprint fmt -c ./dprint.json"
   },
