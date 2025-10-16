@@ -2,11 +2,12 @@
 
 ## Environments
 
-| name    | version |
-| ------- | ------- |
-| Debian  | 12.12   |
-| Node.js | 22.20.0 |
-| pnpm    | 10.18.3 |
+| name        | version |
+| ----------- | ------- |
+| Debian      | 12.12   |
+| Node.js     | 22.20.0 |
+| pnpm        | 10.18.3 |
+| claude-code | 2.0.15  |
 
 ## Development
 
