@@ -1,5 +1,10 @@
 packageName=$1
 
+if [ -z "$1" ]; then
+  echo "A pacakge name must be given as a first argument"
+  exit 1
+fi
+
 mkdir -p packages/$packageName
 
 echo "{
