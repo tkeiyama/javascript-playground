@@ -2,7 +2,8 @@
   "name": "@javascript-playground/root",
   "scripts": {
     "new": "sh ./scripts/new.sh",
-    "lint": "oxlint -c ./.oxlintrc.json --deny-warnings --fix"
+    "lint": "oxlint -c ./.oxlintrc.json --deny-warnings --fix",
+    "format": "dprint fmt -c ./dprint.json"
   },
   "devDependencies": {
     "dprint": "0.50.2",
