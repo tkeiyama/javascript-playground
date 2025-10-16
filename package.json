@@ -5,6 +5,7 @@
     "lint": "oxlint -c ./.oxlintrc.json --deny-warnings --fix"
   },
   "devDependencies": {
+    "dprint": "0.50.2",
     "oxlint": "1.23.0",
     "typescript": "5.9.3"
   }
