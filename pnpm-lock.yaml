@@ -34,6 +34,28 @@ importers:
         specifier: 7.1.10
         version: 7.1.10
 
+  packages/react-vite-ts:
+    dependencies:
+      react:
+        specifier: 19.2.0
+        version: 19.2.0
+      react-dom:
+        specifier: 19.2.0
+        version: 19.2.0(react@19.2.0)
+    devDependencies:
+      '@types/react':
+        specifier: 19.2.2
+        version: 19.2.2
+      '@types/react-dom':
+        specifier: 19.2.2
+        version: 19.2.2(@types/react@19.2.2)
+      '@vitejs/plugin-react':
+        specifier: 5.0.4
+        version: 5.0.4(vite@7.1.10)
+      vite:
+        specifier: 7.1.10
+        version: 7.1.10
+
 packages:
 
   '@babel/code-frame@7.27.1':
