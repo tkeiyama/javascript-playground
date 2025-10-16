@@ -19,7 +19,7 @@ pnpm install
 
 ## How to Add a New Pacakge
 
-You can use the following helper script to add a new pacakge.  
+You can use the following helper script to add a new pacakge.
 
 ```shell
 pnpm new {package name}

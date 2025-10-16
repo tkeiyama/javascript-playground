@@ -1,5 +1,7 @@
 export const App = () => {
-  return <div>
-    React + Vite + TypeScript!
-  </div>
-}
+  return (
+    <div>
+      React + Vite + TypeScript!
+    </div>
+  );
+};
