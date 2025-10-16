@@ -5,7 +5,7 @@ const baseUrl = 'http://localhost:8787'
 const getRequestUrl = (path: `/${string}`) => `${baseUrl}${path}`
 
 describe('GET /', () => {
-  it('returns a response', async () => {
+  it('gets a response', async () => {
     const response = await app.request(getRequestUrl('/'))
     expect(response.status).toBe(200)
     expect(response.headers.get('x-powered-by')).toBe('Hono')
