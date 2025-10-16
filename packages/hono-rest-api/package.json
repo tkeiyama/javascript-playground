@@ -1,0 +1,14 @@
+{
+  "name": "@javascript-playground/hono-rest-api",
+  "scripts": {
+    "dev": "wrangler dev src/server.ts -c wrangler.toml",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "hono": "4.9.12"
+  },
+  "devDependencies": {
+    "vitest": "3.2.4",
+    "wrangler": "4.43.0"
+  }
+}
