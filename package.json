@@ -7,6 +7,7 @@
     "format": "dprint fmt -c ./dprint.json"
   },
   "devDependencies": {
+    "@types/node": "24.8.1",
     "dprint": "0.50.2",
     "oxlint": "1.23.0",
     "typescript": "5.9.3"
