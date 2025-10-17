@@ -4,3 +4,4 @@ packages:
 onlyBuiltDependencies:
   - dprint
   - esbuild
+  - sharp
