@@ -2,4 +2,4 @@
 
 ## Links
 
-- https://hono.dev/
+- https://github.com/honojs/hono
