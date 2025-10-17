@@ -1,0 +1,11 @@
+import { Outlet } from "react-router";
+
+export default function R() {
+  return (
+    <html lang="en">
+      <body>
+        <Outlet />
+      </body>
+    </html>
+  );
+}
