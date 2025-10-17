@@ -2,4 +2,4 @@
 
 ## Links
 
-- https://vite.dev/
+- https://github.com/vitejs/vite
