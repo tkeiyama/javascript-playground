@@ -11,4 +11,9 @@ echo "{
   \"name\": \"@javascript-playground/$packageName\"
 }" >> packages/$packageName/package.json
 
+echo "# $packageName
+
+## Links
+" >> packages/$packageName/README.md
+
 pnpm i
