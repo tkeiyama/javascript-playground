@@ -7,3 +7,5 @@
 - https://github.com/remarkjs/remark/tree/main/packages/remark-parse
 - https://github.com/remarkjs/remark-rehype
 - https://github.com/rehypejs/rehype/tree/main/packages/rehype-stringify
+- https://github.com/remarkjs/remark-frontmatter
+- https://github.com/phuctm97/remark-parse-frontmatter
