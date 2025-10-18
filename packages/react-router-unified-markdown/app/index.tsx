@@ -1,10 +1,10 @@
 import { readFile } from "node:fs/promises";
 import { useLoaderData } from "react-router";
 import rehypeStringify from "rehype-stringify";
+import remarkFrontmatter from "remark-frontmatter";
 import remarkParse from "remark-parse";
+import remarkParseFrontmatter from "remark-parse-frontmatter";
 import remarkRehype from "remark-rehype";
-import remarkFrontmatter from 'remark-frontmatter'
-import remarkParseFrontmatter from 'remark-parse-frontmatter'
 import { unified } from "unified";
 
 export const loader = async () => {
@@ -17,7 +17,7 @@ export const loader = async () => {
     .use(rehypeStringify)
     .process(markdown);
 
-  const metadata = file.data.frontmatter as Record<string, string>
+  const metadata = file.data.frontmatter as Record<string, string>;
   const content = file.value;
 
   return {
@@ -28,7 +28,7 @@ export const loader = async () => {
 
 export default function R() {
   const loaderData = useLoaderData<typeof loader>();
-  const metadata = loaderData.metadata
+  const metadata = loaderData.metadata;
   const content = loaderData.content;
 
   return (
