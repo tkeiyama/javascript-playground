@@ -35,7 +35,7 @@ export default function R() {
     <div>
       <h2>Metadata</h2>
       {Object.entries(metadata).map(([key, value]) => (
-        <div>
+        <div key={key}>
           <span>{key}: {value}</span>
         </div>
       ))}
