@@ -4,3 +4,4 @@ dist
 .wrangler
 .react-router
 build
+.vercel
