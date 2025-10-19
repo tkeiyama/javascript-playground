@@ -1,5 +1,5 @@
 import { index, RouteConfig } from '@react-router/dev/routes'
 
 export default [
-  index('./index.tsx')
+  index('./routes/index.tsx')
 ] satisfies RouteConfig
