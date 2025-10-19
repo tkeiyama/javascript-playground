@@ -2,5 +2,5 @@
  * @type {import('lint-staged').Configuration}
  */
 export default {
-  "*": 'echo "hello from lint-staged"'
+  "*.{ts,tsx,md,json}": ["pnpm lint", "pnpm format"]
 }
