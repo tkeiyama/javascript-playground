@@ -4,7 +4,8 @@
     "new": "sh ./scripts/new.sh",
     "fix": "pnpm lint && pnpm format",
     "lint": "oxlint -c ./.oxlintrc.json --deny-warnings --fix",
-    "format": "dprint fmt -c ./dprint.json"
+    "format": "dprint fmt -c ./dprint.json",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "24.8.1",
