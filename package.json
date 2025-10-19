@@ -9,6 +9,7 @@
   "devDependencies": {
     "@types/node": "24.8.1",
     "dprint": "0.50.2",
+    "husky": "9.1.7",
     "oxlint": "1.23.0",
     "typescript": "5.9.3"
   }
