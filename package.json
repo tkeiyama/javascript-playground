@@ -1,5 +1,6 @@
 {
   "name": "@javascript-playground/root",
+  "type": "module",
   "scripts": {
     "new": "sh ./scripts/new.sh",
     "fix": "pnpm lint && pnpm format",
