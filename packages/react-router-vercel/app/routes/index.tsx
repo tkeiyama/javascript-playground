@@ -15,11 +15,11 @@ export default function R() {
       <h1>
         Index Page!
       </h1>
-      <ul style={{ width: "fit-content" }}>
+      <ul>
         {dynamicRoutes.map((route) => (
-          <Link key={route} to={`/things/${route}`}>
-            <li>{route}</li>
-          </Link>
+          <li key={route}>
+            <Link to={`/things/${route}`}>{route}</Link>
+          </li>
         ))}
       </ul>
     </div>
